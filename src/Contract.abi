@@ -1,0 +1,30 @@
+[
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "inputNum",
+				"type": "uint256"
+			}
+		],
+		"name": "add",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getCounter",
+		"outputs": [
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
